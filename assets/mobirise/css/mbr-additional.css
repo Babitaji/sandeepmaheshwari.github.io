@@ -1472,30 +1472,3 @@ body {
 .cid-qySbfESsKq .section-text DIV {
   text-align: left;
 }
-.cid-qySbnPGGbx {
-  padding-top: 0px;
-  padding-bottom: 0px;
-  background-color: #ffffff;
-}
-.cid-qySbnPGGbx .line {
-  background-color: #ffffff;
-  color: #ffffff;
-  align: center;
-  height: 2px;
-  margin: 0 auto;
-}
-.cid-qySbnPGGbx .section-text {
-  padding: 2rem 0;
-  text-align: left;
-}
-.cid-qySbnPGGbx .inner-container {
-  margin: 0 auto;
-}
-@media (max-width: 768px) {
-  .cid-qySbnPGGbx .inner-container {
-    width: 100% !important;
-  }
-}
-.cid-qySbnPGGbx .section-text DIV {
-  text-align: left;
-}
