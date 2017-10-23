@@ -88,7 +88,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "21 - 40",
-        "order": 2
+        "order": 1
       },
       "components": [
         {
@@ -134,7 +134,7 @@
       "settings": {
         "meta_descr": "Website Builder Description",
         "title": "41 - 60",
-        "order": 3
+        "order": 2
       },
       "components": [
         {
@@ -180,7 +180,7 @@
       "settings": {
         "meta_descr": "Website Maker Description",
         "title": "61 - 80",
-        "order": 4
+        "order": 3
       },
       "components": [
         {
@@ -226,7 +226,7 @@
       "settings": {
         "meta_descr": "Site Generator Description",
         "title": "81 - 100",
-        "order": 5
+        "order": 4
       },
       "components": [
         {
@@ -267,6 +267,14 @@
           "_params": {}
         }
       ]
+    },
+    "page5.html": {
+      "settings": {
+        "meta_descr": "Web Page Generator Description",
+        "title": "Stories",
+        "order": 5
+      },
+      "components": []
     }
   }
 }
