@@ -1498,7 +1498,7 @@ body {
   text-align: center;
 }
 .cid-qyY8a2nOVO .mbr-text P {
-  text-align: left;
+  text-align: center;
 }
 .cid-qySv6wVfgG {
   background: #ffffff;
@@ -1609,4 +1609,20 @@ body {
 }
 .cid-qyY95HaG0X a.close:hover {
   color: #ffffff;
+}
+.cid-qyYajRlV1K {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #ffffff;
+}
+.cid-qyYajRlV1K .mbr-text,
+.cid-qyYajRlV1K blockquote {
+  color: #767676;
+}
+.cid-qyYajRlV1K .mbr-text {
+  color: #232323;
+  text-align: center;
+}
+.cid-qyYajRlV1K .mbr-text P {
+  text-align: center;
 }

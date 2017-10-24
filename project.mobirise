@@ -30,7 +30,7 @@
       "additionalSetColors": []
     },
     "versionFirst": "4.2.2",
-    "uniqCompNum": 16,
+    "uniqCompNum": 17,
     "versionPublish": "4.2.2",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png"
@@ -301,7 +301,7 @@
               "text-align": "center"
             },
             ".mbr-text P": {
-              "text-align": "left"
+              "text-align": "center"
             }
           },
           "_name": "content1",
@@ -488,7 +488,33 @@
         "title": "Sumit Stories",
         "order": 7
       },
-      "components": []
+      "components": [
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            },
+            ".mbr-text": {
+              "color": "#232323",
+              "text-align": "center"
+            },
+            ".mbr-text P": {
+              "text-align": "center"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\" data-multiline mbr-article><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><span style=\"font-size: calc(1.175rem + (0.325 * ((100vw - 20rem) / 28)));\">Sorry No Any Storiy Available</span><br></p><p>Please Submit Story&nbsp;</p></div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content1-g",
+          "_cid": "qyYajRlV1K",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
     }
   }
 }
