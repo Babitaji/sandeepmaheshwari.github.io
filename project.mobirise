@@ -30,7 +30,7 @@
       "additionalSetColors": []
     },
     "versionFirst": "4.2.2",
-    "uniqCompNum": 24,
+    "uniqCompNum": 29,
     "versionPublish": "4.5.2",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png"
@@ -564,43 +564,54 @@
           "_global": false,
           "_once": false,
           "_params": {}
-        },
-        {
-          "_params": {
-            "paddingTop": 0,
-            "paddingBottom": 0,
-            "socialFacebook": true,
-            "postsNumber": "16",
-            "socialGoogle": false,
-            "socialDisqus": false,
-            "shortName": "",
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "bgImageRadio": false,
-            "bgImage": "@ADDONS_PATH@/facebook-comments/facebook-comments-block/assets/comments_bg.jpg",
-            "overlay": true,
-            "overlayColor": "#7e9b9f",
-            "overlayOpacity": 0.6
-          },
-          "innerText": "<div class=\"facebookPlaceholder\" data-numposts=\"\"><h2>FACEBOOK COMMENTS WILL BE SHOWN ONLY WHEN YOUR SITE IS ONLINE</h2> <img src=\"@PROJECT_PATH@/assets/images/facebook-comments.jpg\"></div>",
-          "innerTextGoogle": "<div class=\"googlePlaceholder\" data-numposts=\"\"><h2>GOOGLE COMMENTS WILL BE SHOWN ONLY WHEN YOUR SITE IS ONLINE</h2> <img src=\"@ADDONS_PATH@/facebook-comments/facebook-comments-block/assets/google-comments.jpg\"></div>",
-          "innerTextDisqus": "<div class=\"disqusPlaceholder\" data-numposts=\"\"><h2>DISQUS COMMENTS WILL BE SHOWN ONLY WHEN YOUR SITE IS ONLINE</h2> <img src=\"@ADDONS_PATH@/facebook-comments/facebook-comments-block/assets/disqus-comments.jpg\"></div>",
-          "alias": "facebook-comments",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "facebook-comments-block",
-          "_anchor": "facebook-comments-block-n"
         }
       ]
     },
     "page9.html": {
       "settings": {
         "meta_descr": "Website Generator Description",
-        "title": "Videos",
+        "title": "Success Tips",
         "order": 1
       },
-      "components": []
+      "components": [
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0",
+              "text-align": "left"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            },
+            ".section-text DIV": {
+              "text-align": "left"
+            }
+          },
+          "_name": "content9",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"10\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\" mbr-text><b>Tip - 5 &nbsp;</b>( 7 Dec , 2017 )<br><br>रुको (Stop)\n<b> : -</b><br><b><br></b><div>\n<span style=\"font-size: 1rem;\">लगातार कोशिश करने के बावजूद भी सफलता न मिलना मतलब यह समय हमारी कोशिश को रोक देने का है जी हाँ – थोड़ा ब्रेक ले अपने रूटीन से,&nbsp;</span></div><div><span style=\"font-size: 1rem;\"><br></span></div><div>\n</div><div>बाहर प्राकृतिक जगहों पर घूमने जाये, परिवार के साथ ज्यादा वक्त बिताये, अपने साथ वक्त बिताये, यह ठहराव आपको तरोताजा कर देगा और नयी उम्मीद देगा, ध्यान रहे यह ठहराव पूरी तरह से रुकने के लिए नहीं बल्कि नए सिरे से सोचने के लिए है ।</div><div><br><b>Tip - 4 &nbsp;</b>( 6 Dec , 2017 )<b><br></b><br>देखो (See)\n<b> : -</b></div><div><b><br></b><div>\n<span style=\"font-size: 1rem;\">जब हम थोड़ा रुकते है तो हमें अपनी जिंदगी की उन तमाम आदतों और कार्यों के बारे में सोचने का वक्त मिलता है और हमें देखना है की कौन-से तरीके काम नहीं कर रहे है, हमारी कौन-सी आदतें (Habits) है जो हमें रोक रही है,&nbsp;</span></div><div>\n</div><div>और हमें कौन मदद कर सकता है क्या हम सही दिशा में जा रहे है या नहीं, हमारी अब तक की असफलता के कारण क्या है आदि यह आकलन हमें पूरी स्पष्टता दे देता है ।</div><div><br><b>Tip - 3 &nbsp;</b>( 5 Dec , 2017 )<br><br>दिन की Happy शुरवात <b>: -</b></div></div><div><div><br>दिन की Happy शुरवात कैसी होंगी इस की कोशिश करो। बहोत बार छोटी बातो से मुड खराब हो जाता है और हम कुछ नहीं करते। सिर्फ चिडचिड होती है। इसलिये सुबह उठने के बाद Positive energy के साथ शुरवात करो।<br><br><b>Tip - 2 &nbsp;</b>( 4 Dec , 2017 )<br><br>फोकस <b>: -</b></div></div><div><div><br>Success steps में अपना goal या लक्ष्य clear रखना सबसे ज्यादा important है यह बताया गया हैं। आपका लक्ष्य क्या है? आपको Exactly क्या चाहिये? यह मत भूलो। कुछ भी हो जाये आपका ध्यान हटना नहीं चाहिए।<br><br><b>Tip </b>- <b>1 &nbsp;</b>( 3 Dec , 2017 )<br><br>जो करोंगे वो अच्छे से करो<b> : -</b></div></div><div><div><br>आपको जो भी काम दिया जाता है उसे Best करने की कोशिश करो। आपका हर काम आप को represent करता है। <br><br>इसीलिए हर काम में पूरी जान लगा कर अपना १००% परफॉर्म करो। आपका मुकाबला किसी और के साथ नहीं है। आपने last time जितना किया था उससे बेहतर output मिले इसपर आपका focus होना चाहिए।</div></div></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
+          "_anchor": "content9-r",
+          "_cid": "qD74hBWTlL",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
     }
   }
 }

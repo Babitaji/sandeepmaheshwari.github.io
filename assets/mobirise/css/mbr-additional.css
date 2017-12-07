@@ -1675,3 +1675,30 @@ body {
     width: 100% !important;
   }
 }
+.cid-qD74hBWTlL {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #ffffff;
+}
+.cid-qD74hBWTlL .line {
+  background-color: #ffffff;
+  color: #ffffff;
+  align: center;
+  height: 2px;
+  margin: 0 auto;
+}
+.cid-qD74hBWTlL .section-text {
+  padding: 2rem 0;
+  text-align: left;
+}
+.cid-qD74hBWTlL .inner-container {
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .cid-qD74hBWTlL .inner-container {
+    width: 100% !important;
+  }
+}
+.cid-qD74hBWTlL .section-text DIV {
+  text-align: left;
+}
